@@ -66,7 +66,7 @@ dask==2022.2.1
 dataclasses-json==0.5.8
 datasets==2.13.0
 datashader==0.13.0
-datashape==0.5.4
+datashape==0.5.2
 debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1

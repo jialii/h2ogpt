@@ -996,6 +996,7 @@ def get_model(
     if isinstance(inference_server, str) and (
             inference_server.startswith('openai') or inference_server.startswith('vllm')):
         if inference_server.startswith('openai'):
+            print('getting openai api key')
             assert os.getenv('OPENAI_API_KEY'), "Set environment for OPENAI_API_KEY"
             # Don't return None, None for model, tokenizer so triggers
             # include small token cushion

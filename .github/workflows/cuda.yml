@@ -1,0 +1,2 @@
+- name: cuda-toolkit
+  uses: Jimver/cuda-toolkit@v0.2.11
